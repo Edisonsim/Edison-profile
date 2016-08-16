@@ -1,6 +1,4 @@
-
 (function($) {
-
 
   // 2. changing to jquery format, notice we don't define the XHR class anymore
 
@@ -20,7 +18,6 @@
   }).done(successFunction)
     .fail(failFunction)
     .always(alwaysFunction);
-
 
     function successFunction(data) {
     $bio.css('border', '1px solid #e8e8e8');

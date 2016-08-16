@@ -1,6 +1,3 @@
-/* GENERAL STYLES
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-
 $bg-main-color: #fdfdfd;
 
 * {
@@ -23,14 +20,6 @@ h3, p, div {
 
 h3 {
   text-transform: capitalize;
-  span {
-    text-transform: none;
-  }
-}
-
-button {
-  display: block;
-  margin: 15px auto;
 }
 
 #bio {
