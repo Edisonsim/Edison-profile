@@ -7,7 +7,7 @@
   var $bio = $('#bio');
   var $loader = $('.loader');
 
-  var server_url = 'http://localhost:7000/edison';
+  var server_url = 'https://shielded-woodland-72080.herokuapp.com/edison';
 
   $.ajax({
     url: server_url,
